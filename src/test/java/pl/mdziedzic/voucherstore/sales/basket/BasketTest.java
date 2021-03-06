@@ -13,8 +13,8 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 public class BasketTest {
 
-    public static final String PRODUCT_1 = "lego-8297";
-    public static final String PRODUCT_2 = "lego-9999";
+    public static final String PRODUCT_1 = "lego-2137";
+    public static final String PRODUCT_2 = "lego-1488";
 
     @Test
     public void newlyCreateBasketIsEmpty() {
