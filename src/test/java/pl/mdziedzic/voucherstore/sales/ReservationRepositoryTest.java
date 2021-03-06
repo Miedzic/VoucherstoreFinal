@@ -25,7 +25,7 @@ public class ReservationRepositoryTest {
     public void itAllowToStoreReservationWithItems() {
         var reservation = new Reservation(
                 UUID.randomUUID().toString(),
-                new ClientData("jakub", "kanclerz", "jakub@jkan.pl"),
+                new ClientData("Mateusz", "Dziedzic", "matim98@tlen.pl"),
                 Arrays.asList(
                         new ReservationItem("123", "name", BigDecimal.TEN, 1),
                         new ReservationItem("124", "name", BigDecimal.TEN, 1)
